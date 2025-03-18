@@ -5,7 +5,6 @@
     --secondary-color: #FF6F00;
     --gray-color: #D1D5DB;
     --text-title: #F9F9FB;
-    ;
 }
 
 /* ==================  Common Part Start  ================== */
@@ -148,6 +147,12 @@ li {
     cursor: pointer;
     display: none; /* Initially hidden */
     z-index: 1000;
+    opacity: 30%;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.backToTop:hover {
+    opacity: 100%;
 }
 
 .backToTop img {
@@ -755,7 +760,10 @@ body {
     color: var(--secondary-color);
 }
 
-#footer .mail {
+#footer .footer-mail {
+    text-align: end;
+}
+#footer .footer-mail .mail {
     color: var(--text-title);
     font-weight: 600;
     font-size: 28px;

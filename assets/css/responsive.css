@@ -1,0 +1,821 @@
+:root {
+    --primary-color: #00BCD4;
+    --secondary-color: #FF6F00;
+    --gray-color: #D1D5DB;
+    --text-title: #F9F9FB;
+}
+
+@media(min-width:1101px) and (max-width:1200.98px) {}
+
+@media(min-width:992px) and (max-width:1100.98px) {}
+
+
+@media(min-width:768px) and (max-width:991.98px) {
+
+    /* Common */
+    .order-small-1 {
+        order: 1;
+    }
+
+    .order-small-2 {
+        order: 2;
+    }
+
+    /* =================================================
+    ================== Navbar ==================
+    ================================================= */
+
+    #main_menu .navbar-toggler {
+        color: var(--text-title);
+        font-size: 30px;
+    }
+
+    #main_menu #navbarText {
+        background-color: var(--primary-color);
+        margin: 20px 0;
+        border-radius: 45px;
+    }
+
+    #main_menu #navbarText ul {
+        text-align: center;
+        gap: 0;
+    }
+
+    #main_menu #navbarText ul li {
+        margin: 5px 0;
+    }
+
+    #main_menu #navbarText ul li a {
+        border: none;
+        border-color: none;
+    }
+
+    #main_menu #navbarText ul li a:hover {
+        border: none;
+        border-color: none;
+        color: var(--text-title);
+        transform: scale(1.1);
+    }
+
+    /* =================================================
+    ================== Navbar End ==================
+    ================================================= */
+
+    /* ================================================
+    ================== Banner ==================
+    ================================================= */
+
+    #bs {
+        padding: 20px 0;
+    }
+
+    #bs .bs_content .social ul {
+        flex-direction: row;
+        justify-content: center;
+        gap: 0 50px;
+        margin-top: 30px;
+    }
+
+    #bs .bs_content .social ul li a {
+        font-size: 24px;
+    }
+
+    #bs .bs_content .social ul li:last-child::after {
+        display: none;
+    }
+
+    #bs .bs_content .social-col {
+        order: 2;
+    }
+
+    #bs .bs_content .info-col {
+        order: 1;
+    }
+
+    #bs .bs_content .info .ovrly_icons_icon_01 {
+        position: absolute;
+        top: 25%;
+        left: 0;
+    }
+
+    #bs .bs_content .info .ovrly_icons_icon_01 img,
+    #bs .bs_content .info .ovrly_icons_icon_02 img {
+        width: 50px;
+    }
+
+    #bs .bs_content .info .ovrly_icons_icon_02 {
+        position: absolute;
+        top: 20%;
+        right: 0;
+    }
+
+    #bs .bs_content h1 {
+        font-size: 48px;
+    }
+
+    #bs .bs_content p {
+        margin-bottom: 0;
+        width: inherit;
+        margin: inherit;
+        font-size: 15px;
+    }
+
+    /* ================================================
+    ================== Banner End ==================
+    ================================================= */
+
+    /* ================================================
+    ================== About ==================
+    ================================================= */
+
+    #about {
+        padding: 20px 0;
+    }
+
+    #about .about_left p {
+        padding-right: 0;
+    }
+
+    #about .about_img {
+        width: 290px;
+        height: 325px;
+    }
+
+    #about .about_img .ovrly {
+        left: 15px;
+        bottom: -20px;
+        width: 290px;
+        height: 325px;
+    }
+
+    #about .about_img .icon {
+        right: -10px;
+        left: inherit;
+        bottom: -45px;
+    }
+
+    #about .about_img .icon img {
+        width: 100px;
+    }
+
+    #about .about_img .ovrly_fade {
+        display: none;
+    }
+
+    /* ================================================
+    ================== About End ==================
+    ================================================= */
+
+    /* ================================================
+    ================== Work Experience ==================
+    ================================================= */
+
+    #work_experience {
+        padding: 20px 0;
+    }
+
+    #work_experience .experience_content .my_work li .time {
+        text-align: left;
+    }
+
+    #work_experience .experience_content .my_work li .company_name h4 {
+        color: var(--secondary-color);
+        font-size: 21px;
+    }
+
+    #work_experience .experience_content .my_work li .description p {
+        font-size: 14px;
+    }
+
+    /* ================================================
+    ================== Work Experience End ==================
+    ================================================= */
+
+    /* ================================================
+    ================== Portfolio ==================
+    ================================================= */
+
+    #portfolio {
+        padding: 20px 0;
+    }
+
+    #portfolio .port_content .project_image img {
+        width: 100%;
+    }
+
+    #portfolio .port_content .lsc .project_content,
+    #portfolio .port_content .rsc .project_content {
+        text-align: center;
+    }
+
+    #portfolio .port_content .project_content h4 {
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    #portfolio .port_content .project_content .short_desp .ovrly {
+        position: inherit;
+        top: inherit;
+        transform: inherit;
+        right: inherit;
+        background: var(--Background-2, #151326);
+        border-radius: 25px;
+        width: inherit;
+        padding: 24px;
+    }
+
+
+    #portfolio .port_content .project_content .getAPK span {
+        font-size: 24px;
+    }
+
+    #portfolio .port_content .project_content .getAPK i {
+        font-size: 30px;
+    }
+
+    #portfolio .port_content .project_content .short_desp {
+        height: inherit;
+        margin-bottom: 20px;
+    }
+
+    #portfolio .port_content .lsc .project_content .getAPK,
+    #portfolio .port_content .rsc .project_content .getAPK {
+        margin-top: 25px;
+    }
+
+    /* ================================================
+    ================== Portfolio End ==================
+    ================================================= */
+
+    /* ================================================
+    ================== Footer ==================
+    ================================================= */
+
+    #footer {
+        padding: 20px 0;
+    }
+
+    #footer .footer_content p {
+        color: var(--text-title);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        padding: inherit;
+    }
+
+    #footer .social{
+        justify-content: center;
+    }
+
+    #footer .social li a{
+        font-size: 18px;
+    }
+
+    #footer .footer-mail {
+        text-align: center;
+    }
+
+    /* ==================================================
+    ================== Footer End ==================
+    ================================================= */
+}
+
+@media(min-width:576px) and (max-width:767.98px) {
+
+    /* Common */
+    .order-small-1 {
+        order: 1;
+    }
+
+    .order-small-2 {
+        order: 2;
+    }
+
+    /* =================================================
+    ================== Navbar ==================
+    ================================================= */
+
+    #main_menu .navbar-toggler {
+        color: var(--text-title);
+        font-size: 30px;
+    }
+
+    #main_menu #navbarText {
+        background-color: var(--primary-color);
+        margin: 20px 0;
+        border-radius: 45px;
+    }
+
+    #main_menu #navbarText ul {
+        text-align: center;
+        gap: 0;
+    }
+
+    #main_menu #navbarText ul li {
+        margin: 5px 0;
+    }
+
+    #main_menu #navbarText ul li a {
+        border: none;
+        border-color: none;
+    }
+
+    #main_menu #navbarText ul li a:hover {
+        border: none;
+        border-color: none;
+        color: var(--text-title);
+        transform: scale(1.1);
+    }
+
+    /* =================================================
+    ================== Navbar End ==================
+    ================================================= */
+
+    /* ================================================
+    ================== Banner ==================
+    ================================================= */
+
+    #bs {
+        padding: 20px 0;
+    }
+
+    #bs .bs_content .social ul {
+        flex-direction: row;
+        justify-content: center;
+        gap: 0 50px;
+        margin-top: 30px;
+    }
+
+    #bs .bs_content .social ul li a {
+        font-size: 24px;
+    }
+
+    #bs .bs_content .social ul li:last-child::after {
+        display: none;
+    }
+
+    #bs .bs_content .social-col {
+        order: 2;
+    }
+
+    #bs .bs_content .info-col {
+        order: 1;
+    }
+
+    #bs .bs_content .info .ovrly_icons_icon_01 {
+        position: absolute;
+        top: 25%;
+        left: 0;
+    }
+
+    #bs .bs_content .info .ovrly_icons_icon_01 img,
+    #bs .bs_content .info .ovrly_icons_icon_02 img {
+        width: 50px;
+    }
+
+    #bs .bs_content .info .ovrly_icons_icon_02 {
+        position: absolute;
+        top: 20%;
+        right: 0;
+    }
+
+    #bs .bs_content h1 {
+        font-size: 48px;
+    }
+
+    #bs .bs_content p {
+        margin-bottom: 0;
+        width: inherit;
+        margin: inherit;
+        font-size: 15px;
+    }
+
+    /* ================================================
+    ================== Banner End ==================
+    ================================================= */
+
+    /* ================================================
+    ================== About ==================
+    ================================================= */
+
+    #about {
+        padding: 20px 0;
+    }
+
+    #about .about_left p {
+        padding-right: 0;
+    }
+
+    #about .about_img {
+        width: 290px;
+        height: 325px;
+    }
+
+    #about .about_img .ovrly {
+        left: 15px;
+        bottom: -20px;
+        width: 290px;
+        height: 325px;
+    }
+
+    #about .about_img .icon {
+        right: -10px;
+        left: inherit;
+        bottom: -45px;
+    }
+
+    #about .about_img .icon img {
+        width: 100px;
+    }
+
+    #about .about_img .ovrly_fade {
+        display: none;
+    }
+
+    /* ================================================
+    ================== About End ==================
+    ================================================= */
+
+    /* ================================================
+    ================== Work Experience ==================
+    ================================================= */
+
+    #work_experience {
+        padding: 20px 0;
+    }
+
+    #work_experience .experience_content .my_work li .time {
+        text-align: left;
+    }
+
+    #work_experience .experience_content .my_work li .company_name h4 {
+        color: var(--secondary-color);
+        font-size: 21px;
+    }
+
+    #work_experience .experience_content .my_work li .description p {
+        font-size: 14px;
+    }
+
+    /* ================================================
+    ================== Work Experience End ==================
+    ================================================= */
+
+    /* ================================================
+    ================== Portfolio ==================
+    ================================================= */
+
+    #portfolio {
+        padding: 20px 0;
+    }
+
+    #portfolio .port_content .project_image img {
+        width: 100%;
+    }
+
+    #portfolio .port_content .lsc .project_content,
+    #portfolio .port_content .rsc .project_content {
+        text-align: center;
+    }
+
+    #portfolio .port_content .project_content h4 {
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    #portfolio .port_content .project_content .short_desp .ovrly {
+        position: inherit;
+        top: inherit;
+        transform: inherit;
+        right: inherit;
+        background: var(--Background-2, #151326);
+        border-radius: 25px;
+        width: inherit;
+        padding: 24px;
+    }
+
+
+    #portfolio .port_content .project_content .getAPK span {
+        font-size: 24px;
+    }
+
+    #portfolio .port_content .project_content .getAPK i {
+        font-size: 30px;
+    }
+
+    #portfolio .port_content .project_content .short_desp {
+        height: inherit;
+        margin-bottom: 20px;
+    }
+
+    #portfolio .port_content .lsc .project_content .getAPK,
+    #portfolio .port_content .rsc .project_content .getAPK {
+        margin-top: 25px;
+    }
+
+    /* ================================================
+    ================== Portfolio End ==================
+    ================================================= */
+
+    /* ================================================
+    ================== Footer ==================
+    ================================================= */
+
+    #footer {
+        padding: 20px 0;
+    }
+
+    #footer .footer_content p {
+        color: var(--text-title);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        padding: inherit;
+    }
+
+    #footer .social{
+        justify-content: center;
+    }
+
+    #footer .social li a{
+        font-size: 18px;
+    }
+
+    #footer .footer-mail {
+        text-align: center;
+    }
+
+    /* ==================================================
+    ================== Footer End ==================
+    ================================================= */
+}
+
+@media(max-width:575.98px) {
+
+    /* Common */
+    .order-small-1 {
+        order: 1;
+    }
+
+    .order-small-2 {
+        order: 2;
+    }
+
+    /* =================================================
+    ================== Navbar ==================
+    ================================================= */
+
+    #main_menu .navbar-toggler {
+        color: var(--text-title);
+        font-size: 30px;
+    }
+
+    #main_menu #navbarText {
+        background-color: var(--primary-color);
+        margin: 20px 0;
+        border-radius: 45px;
+    }
+
+    #main_menu #navbarText ul {
+        text-align: center;
+        gap: 0;
+    }
+
+    #main_menu #navbarText ul li {
+        margin: 5px 0;
+    }
+
+    #main_menu #navbarText ul li a {
+        border: none;
+        border-color: none;
+    }
+
+    #main_menu #navbarText ul li a:hover {
+        border: none;
+        border-color: none;
+        color: var(--text-title);
+        transform: scale(1.1);
+    }
+
+    /* =================================================
+    ================== Navbar End ==================
+    ================================================= */
+
+    /* ================================================
+    ================== Banner ==================
+    ================================================= */
+
+    #bs {
+        padding: 20px 0;
+    }
+
+    #bs .bs_content .social ul {
+        flex-direction: row;
+        justify-content: center;
+        gap: 0 50px;
+        margin-top: 30px;
+    }
+
+    #bs .bs_content .social ul li a {
+        font-size: 24px;
+    }
+
+    #bs .bs_content .social ul li:last-child::after {
+        display: none;
+    }
+
+    #bs .bs_content .social-col {
+        order: 2;
+    }
+
+    #bs .bs_content .info-col {
+        order: 1;
+    }
+
+    #bs .bs_content .info .ovrly_icons_icon_01 {
+        position: absolute;
+        top: 25%;
+        left: 0;
+    }
+
+    #bs .bs_content .info .ovrly_icons_icon_01 img,
+    #bs .bs_content .info .ovrly_icons_icon_02 img {
+        width: 50px;
+    }
+
+    #bs .bs_content .info .ovrly_icons_icon_02 {
+        position: absolute;
+        top: 20%;
+        right: 0;
+    }
+
+    #bs .bs_content h1 {
+        font-size: 48px;
+    }
+
+    #bs .bs_content p {
+        margin-bottom: 0;
+        width: inherit;
+        margin: inherit;
+        font-size: 15px;
+    }
+
+    /* ================================================
+    ================== Banner End ==================
+    ================================================= */
+
+    /* ================================================
+    ================== About ==================
+    ================================================= */
+
+    #about {
+        padding: 20px 0;
+    }
+
+    #about .about_left p {
+        padding-right: 0;
+    }
+
+    #about .about_img {
+        width: 290px;
+        height: 325px;
+    }
+
+    #about .about_img .ovrly {
+        left: 15px;
+        bottom: -20px;
+        width: 290px;
+        height: 325px;
+    }
+
+    #about .about_img .icon {
+        right: -10px;
+        left: inherit;
+        bottom: -45px;
+    }
+
+    #about .about_img .icon img {
+        width: 100px;
+    }
+
+    #about .about_img .ovrly_fade {
+        display: none;
+    }
+
+    /* ================================================
+    ================== About End ==================
+    ================================================= */
+
+    /* ================================================
+    ================== Work Experience ==================
+    ================================================= */
+
+    #work_experience {
+        padding: 20px 0;
+    }
+
+    #work_experience .experience_content .my_work li .time {
+        text-align: left;
+    }
+
+    #work_experience .experience_content .my_work li .company_name h4 {
+        color: var(--secondary-color);
+        font-size: 21px;
+    }
+
+    #work_experience .experience_content .my_work li .description p {
+        font-size: 14px;
+    }
+
+    /* ================================================
+    ================== Work Experience End ==================
+    ================================================= */
+
+    /* ================================================
+    ================== Portfolio ==================
+    ================================================= */
+
+    #portfolio {
+        padding: 20px 0;
+    }
+
+    #portfolio .port_content .project_image img {
+        width: 100%;
+    }
+
+    #portfolio .port_content .lsc .project_content,
+    #portfolio .port_content .rsc .project_content {
+        text-align: center;
+    }
+
+    #portfolio .port_content .project_content h4 {
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    #portfolio .port_content .project_content .short_desp .ovrly {
+        position: inherit;
+        top: inherit;
+        transform: inherit;
+        right: inherit;
+        background: var(--Background-2, #151326);
+        border-radius: 25px;
+        width: inherit;
+        padding: 24px;
+    }
+
+
+    #portfolio .port_content .project_content .getAPK span {
+        font-size: 24px;
+    }
+
+    #portfolio .port_content .project_content .getAPK i {
+        font-size: 30px;
+    }
+
+    #portfolio .port_content .project_content .short_desp {
+        height: inherit;
+        margin-bottom: 20px;
+    }
+
+    #portfolio .port_content .lsc .project_content .getAPK,
+    #portfolio .port_content .rsc .project_content .getAPK {
+        margin-top: 25px;
+    }
+
+    /* ================================================
+    ================== Portfolio End ==================
+    ================================================= */
+
+    /* ================================================
+    ================== Footer ==================
+    ================================================= */
+
+    #footer {
+        padding: 20px 0;
+    }
+
+    #footer .footer_content p {
+        color: var(--text-title);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        padding: inherit;
+    }
+
+    #footer .social{
+        justify-content: center;
+    }
+
+    #footer .social li a{
+        font-size: 18px;
+    }
+
+    #footer .footer-mail {
+        text-align: center;
+    }
+
+    /* ==================================================
+    ================== Footer End ==================
+    ================================================= */
+}
